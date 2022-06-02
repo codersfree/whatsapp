@@ -5113,8 +5113,7 @@ window.Echo = new laravel_echo__WEBPACK_IMPORTED_MODULE_0__["default"]({
   wsPort: window.APP_ENV ? 6002 : 6001,
   wssPort: window.APP_ENV ? 6002 : 6001,
   forceTLS: window.APP_ENV,
-  disableStats: true,
-  enabledTransports: ['ws', 'wss']
+  disableStats: true
 });
 
 /***/ }),
